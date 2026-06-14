@@ -27,7 +27,7 @@ AgentHub 的目标是把“多人协作式 IM 体验”和“多 Agent 产物执
 
 | 文档 | 内容 | 链接 |
 | --- | --- | --- |
-| 产品说明文档 | 项目背景、目标用户、核心场景、功能边界 | `https://my.feishu.cn/docx/Sq9wd5nnqoHtpvx6pF1cDWIhnvf?from=from_copylink` |
+| 产品说明文档 | 项目背景、目标用户、核心场景、功能边界 | `https://my.feishu.cn/wiki/Kd3JwyLD5iFcLAks7WVc8O12nec?from=from_copylink` |
 | 技术设计文档 | 架构设计、模块边界、核心协议、数据模型 | `https://my.feishu.cn/wiki/RzyIwDoRZi9iAgkGng8cUVRLnuh?from=from_copylink` |
 | 演示脚本文档 | 答辩演示流程、核心话术、异常场景展示 | `https://my.feishu.cn/wiki/SHqVwAcZ1iVkAGklLRtcXxQAnTg?from=from_copylink` |
 | AI 协作记录 | 使用 AI 完成需求拆解、架构设计、编码与测试的过程记录 | `https://my.feishu.cn/wiki/WATawS1AWimrjmkefEvc4N6YnXc?from=from_copylink` |
