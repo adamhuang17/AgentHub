@@ -1,4 +1,0 @@
-def add(a, b):
-    if not isinstance(a, (int, float)):
-        raise TypeError('a')
-    return a + b
