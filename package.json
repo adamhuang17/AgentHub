@@ -1,0 +1,11 @@
+{
+  "name": "agenthub-competition",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AgentHub Lite multi-agent collaboration platform with AgentHub Control Plane and local coding runtimes.",
+  "scripts": {
+    "dev:web": "bun --cwd apps/web/packages/app dev",
+    "dev:agent-runtime": "bun --cwd apps/web/packages/opencode run --conditions=browser ./src/index.ts serve --port 4096",
+    "typecheck:web": "bun --cwd apps/web/packages/app typecheck"
+  }
+}

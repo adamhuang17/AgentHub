@@ -1,0 +1,95 @@
+# =====================
+# Environment variables
+# =====================
+.env
+.env.local
+.env.*.local
+config/agenthub.real.env
+config/agenthub.demo.env
+config/agenthub.test.env
+
+# ========
+# Python
+# ========
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# =====
+# Bun / Node
+# =====
+node_modules/
+bun.lock
+*.bun-build
+tsconfig.tsbuildinfo
+.turbo/
+.sst/
+.worktrees/
+dist/
+ts-dist/
+
+# ============
+# IDE / Editor
+# ============
+.idea/
+.vscode/
+*.swp
+*~
+Session.vim
+.codex/
+.serena/
+.omo/
+.claude/
+
+# =========
+# OS files
+# =========
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ====================
+# Runtime / local data
+# ====================
+var/*.sqlite3
+var/*.log
+var/tmp-*/
+var/pytest-tmp/
+data/
+*.sqlite3
+
+# ==============
+# Build artifacts
+# ==============
+target/
+.scripts/
+.direnv/
+/result
+refs
+opencode.json
+a.out
+playground/
+tmp/
+
+# ======
+# Logs
+# ======
+logs/
+*.out.log
+*.err.log
+
+# =====
+# Misc
+# =====
+UPCOMING_CHANGELOG.md

@@ -1,0 +1,13 @@
+[project]
+name = "agenthub-competition"
+version = "0.1.0"
+description = "AgentHub Lite competition project: IM-style multi-agent collaboration platform built from AgentHub Control Plane and local coding runtimes."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+agenthub-api = "services.api.app.main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=var/pytest-tmp"

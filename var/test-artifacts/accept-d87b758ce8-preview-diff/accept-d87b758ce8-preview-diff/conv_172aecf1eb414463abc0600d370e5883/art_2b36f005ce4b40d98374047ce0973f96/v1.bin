@@ -1,0 +1,71 @@
+{
+  "additions": 1,
+  "base_artifact_id": "art_d201aa787b6a4ebe9f6f94d362aeb720",
+  "base_version_id": "artv_18f6a0de490c4094a0443de5b9e17448",
+  "deletions": 1,
+  "diff_artifact_id": "art_2b36f005ce4b40d98374047ce0973f96",
+  "files": [
+    {
+      "additions": 1,
+      "deletions": 1,
+      "hunks": [
+        {
+          "header": "@@ -1 +1 @@",
+          "lines": [
+            {
+              "content": "print('hello')",
+              "new_line": null,
+              "old_line": 1,
+              "type": "deletion"
+            },
+            {
+              "content": "print('hello world')",
+              "new_line": 1,
+              "old_line": null,
+              "type": "addition"
+            }
+          ],
+          "new_lines": 1,
+          "new_start": 1,
+          "old_lines": 1,
+          "old_start": 1,
+          "path": "app.py",
+          "section": ""
+        }
+      ],
+      "new_path": "app.py",
+      "old_path": "app.py",
+      "path": "app.py",
+      "status": "modified",
+      "unified_diff": "--- a/app.py\n+++ b/app.py\n@@ -1 +1 @@\n-print('hello')\n+print('hello world')\n"
+    }
+  ],
+  "hunks": [
+    {
+      "file_path": "app.py",
+      "header": "@@ -1 +1 @@",
+      "lines": [
+        {
+          "content": "print('hello')",
+          "new_line": null,
+          "old_line": 1,
+          "type": "deletion"
+        },
+        {
+          "content": "print('hello world')",
+          "new_line": 1,
+          "old_line": null,
+          "type": "addition"
+        }
+      ],
+      "new_lines": 1,
+      "new_start": 1,
+      "old_lines": 1,
+      "old_start": 1,
+      "path": "app.py",
+      "section": ""
+    }
+  ],
+  "target_artifact_id": "art_13c62942dc814c518fcf4e248e3d5919",
+  "target_version_id": "artv_3653043854be42b8a26d6af62f9ae093"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "AgentHub-Competition",
+  "status": "integrated_formal_competition_project",
+  "file_count": 4675,
+  "size_bytes": 63434293,
+  "entrypoints": {
+    "api": "scripts/dev-api.ps1 or scripts/dev-api.sh",
+    "opencode_service": "scripts/dev-opencode.ps1 or scripts/dev-opencode.sh",
+    "web": "scripts/dev-web.ps1 or scripts/dev-web.sh",
+    "browser": "/agenthub"
+  },
+  "no_fake_success": true
+}

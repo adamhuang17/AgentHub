@@ -1,0 +1,95 @@
+{
+  "additions": 2,
+  "base_artifact_id": "art_1d86140c818d4012947702a43c8918f6",
+  "base_version_id": "artv_2c363134eca649b78fc55d80d8cf58a2",
+  "deletions": 0,
+  "diff_artifact_id": "art_7b635d23202d4dbcac89d922dd2adb98",
+  "files": [
+    {
+      "additions": 2,
+      "deletions": 0,
+      "hunks": [
+        {
+          "header": "@@ -1,2 +1,4 @@",
+          "lines": [
+            {
+              "content": "def add(a, b):",
+              "new_line": 1,
+              "old_line": 1,
+              "type": "context"
+            },
+            {
+              "content": "    if not isinstance(a, (int, float)):",
+              "new_line": 2,
+              "old_line": null,
+              "type": "addition"
+            },
+            {
+              "content": "        raise TypeError('a')",
+              "new_line": 3,
+              "old_line": null,
+              "type": "addition"
+            },
+            {
+              "content": "    return a + b",
+              "new_line": 4,
+              "old_line": 2,
+              "type": "context"
+            }
+          ],
+          "new_lines": 4,
+          "new_start": 1,
+          "old_lines": 2,
+          "old_start": 1,
+          "path": "math.py",
+          "section": ""
+        }
+      ],
+      "new_path": "math.py",
+      "old_path": "math.py",
+      "path": "math.py",
+      "status": "modified",
+      "unified_diff": "--- a/math.py\n+++ b/math.py\n@@ -1,2 +1,4 @@\n def add(a, b):\n+    if not isinstance(a, (int, float)):\n+        raise TypeError('a')\n     return a + b\n"
+    }
+  ],
+  "hunks": [
+    {
+      "file_path": "math.py",
+      "header": "@@ -1,2 +1,4 @@",
+      "lines": [
+        {
+          "content": "def add(a, b):",
+          "new_line": 1,
+          "old_line": 1,
+          "type": "context"
+        },
+        {
+          "content": "    if not isinstance(a, (int, float)):",
+          "new_line": 2,
+          "old_line": null,
+          "type": "addition"
+        },
+        {
+          "content": "        raise TypeError('a')",
+          "new_line": 3,
+          "old_line": null,
+          "type": "addition"
+        },
+        {
+          "content": "    return a + b",
+          "new_line": 4,
+          "old_line": 2,
+          "type": "context"
+        }
+      ],
+      "new_lines": 4,
+      "new_start": 1,
+      "old_lines": 2,
+      "old_start": 1,
+      "path": "math.py",
+      "section": ""
+    }
+  ],
+  "target_artifact_id": "art_f8b782deb16f424cafb69f89052f53fa",
+  "target_version_id": "artv_a6e0a810a99f454c8f617640988812f4"
+}

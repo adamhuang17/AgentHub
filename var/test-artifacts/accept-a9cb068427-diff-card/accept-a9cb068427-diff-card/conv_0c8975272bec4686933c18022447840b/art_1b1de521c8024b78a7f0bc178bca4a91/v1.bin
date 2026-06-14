@@ -1,0 +1,71 @@
+{
+  "additions": 1,
+  "base_artifact_id": "art_b6650ccd42304d92b24887e83663b421",
+  "base_version_id": "artv_3c5725f0608e4686a4efc8aee4280bc4",
+  "deletions": 1,
+  "diff_artifact_id": "art_1b1de521c8024b78a7f0bc178bca4a91",
+  "files": [
+    {
+      "additions": 1,
+      "deletions": 1,
+      "hunks": [
+        {
+          "header": "@@ -1 +1 @@",
+          "lines": [
+            {
+              "content": "hello",
+              "new_line": null,
+              "old_line": 1,
+              "type": "deletion"
+            },
+            {
+              "content": "hello world",
+              "new_line": 1,
+              "old_line": null,
+              "type": "addition"
+            }
+          ],
+          "new_lines": 1,
+          "new_start": 1,
+          "old_lines": 1,
+          "old_start": 1,
+          "path": "note.txt",
+          "section": ""
+        }
+      ],
+      "new_path": "note.txt",
+      "old_path": "note.txt",
+      "path": "note.txt",
+      "status": "modified",
+      "unified_diff": "--- a/note.txt\n+++ b/note.txt\n@@ -1 +1 @@\n-hello\n+hello world\n"
+    }
+  ],
+  "hunks": [
+    {
+      "file_path": "note.txt",
+      "header": "@@ -1 +1 @@",
+      "lines": [
+        {
+          "content": "hello",
+          "new_line": null,
+          "old_line": 1,
+          "type": "deletion"
+        },
+        {
+          "content": "hello world",
+          "new_line": 1,
+          "old_line": null,
+          "type": "addition"
+        }
+      ],
+      "new_lines": 1,
+      "new_start": 1,
+      "old_lines": 1,
+      "old_start": 1,
+      "path": "note.txt",
+      "section": ""
+    }
+  ],
+  "target_artifact_id": "art_d4723b47f54c46c9843b7ac851f19ed7",
+  "target_version_id": "artv_cc60a168d67b4bebb927aff6a98d6e94"
+}

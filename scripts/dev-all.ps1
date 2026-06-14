@@ -1,0 +1,5 @@
+Write-Host "AgentHub Competition uses three foreground processes. This script does not fake background success."
+Write-Host "1. .\scripts\dev-api.ps1"
+Write-Host "2. .\scripts\dev-agent-runtime.ps1"
+Write-Host "3. .\scripts\dev-web.ps1"
+Write-Host "Open the Vite URL with path /agenthub."
